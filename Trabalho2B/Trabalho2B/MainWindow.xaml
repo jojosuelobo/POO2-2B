@@ -1,0 +1,27 @@
+﻿<Window x:Class="Trabalho2B.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Trabalho2B"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Height="434" VerticalAlignment="Center">
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="130" Margin="175,60,0,0" VerticalAlignment="Top" Width="255">
+            <Image x:Name="CatalagoImagem" Source="https://madeirasgasometro.vteximg.com.br/arquivos/ids/171423-1000-1000/pp40-branco-neve-square.jpg?v=637014886212730000" HorizontalAlignment="Left" Height="130" VerticalAlignment="Top" Width="253" Margin="-1,-2,0,0"/>
+        </Border>
+        <Label x:Name="CatalogoTitulo" Content="Curso Titulo" HorizontalAlignment="Left" Margin="445,60,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="CatalogoCargaH" Content="Carga Horaria" HorizontalAlignment="Left" Margin="445,91,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="CatalagoInstrutor" Content="Instrutor" HorizontalAlignment="Left" Margin="445,125,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="CatalagoCodigo" Content="Codigo Curso" HorizontalAlignment="Left" Margin="445,164,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="BotaoDireita" Content="&gt;" Margin="670,98,60,292" Click="BotaoDireita_Click"/>
+        <Button x:Name="BotaoEsquerda" Content="&lt;" Margin="60,98,670,292" Click="BotaoEsquerda_Click"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="115" Margin="35,269,0,0" VerticalAlignment="Top" Width="175"/>
+        <Button Content="Adicionar Curso" HorizontalAlignment="Left" Margin="232,317,0,0" VerticalAlignment="Top"/>
+
+
+
+
+
+    </Grid>
+</Window>
