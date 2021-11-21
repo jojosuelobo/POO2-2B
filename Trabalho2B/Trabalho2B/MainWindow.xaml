@@ -8,16 +8,41 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Height="434" VerticalAlignment="Center">
         <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="130" Margin="175,60,0,0" VerticalAlignment="Top" Width="255">
-            <Image x:Name="CatalagoImagem" Source="https://madeirasgasometro.vteximg.com.br/arquivos/ids/171423-1000-1000/pp40-branco-neve-square.jpg?v=637014886212730000" HorizontalAlignment="Left" Height="130" VerticalAlignment="Top" Width="253" Margin="-1,-2,0,0"/>
+            <Image Source="https://king.host/blog/wp-content/uploads/2018/03/cursos-de-programacao-kinghost-1024x576.png" x:Name="CatalagoImagem" HorizontalAlignment="Left" Height="130" VerticalAlignment="Center" Width="255" Margin="11,0,0,0"/>
         </Border>
         <Label x:Name="CatalogoTitulo" Content="Curso Titulo" HorizontalAlignment="Left" Margin="445,60,0,0" VerticalAlignment="Top" Width="200"/>
         <Label x:Name="CatalogoCargaH" Content="Carga Horaria" HorizontalAlignment="Left" Margin="445,91,0,0" VerticalAlignment="Top" Width="200"/>
         <Label x:Name="CatalagoInstrutor" Content="Instrutor" HorizontalAlignment="Left" Margin="445,125,0,0" VerticalAlignment="Top" Width="200"/>
         <Label x:Name="CatalagoCodigo" Content="Codigo Curso" HorizontalAlignment="Left" Margin="445,164,0,0" VerticalAlignment="Top" Width="200"/>
-        <Button x:Name="BotaoDireita" Content="&gt;" Margin="670,98,60,292" Click="BotaoDireita_Click"/>
-        <Button x:Name="BotaoEsquerda" Content="&lt;" Margin="60,98,670,292" Click="BotaoEsquerda_Click"/>
-        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="115" Margin="35,269,0,0" VerticalAlignment="Top" Width="175"/>
-        <Button Content="Adicionar Curso" HorizontalAlignment="Left" Margin="232,317,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BotaoDireita" Content="&gt;" Margin="670,0,0,292" Click="BotaoDireita_Click" HorizontalAlignment="Left" Width="70" Height="44" VerticalAlignment="Bottom"/>
+        <Button x:Name="BotaoEsquerda" Content="&lt;" Margin="0,0,670,292" Click="BotaoEsquerda_Click" HorizontalAlignment="Right" Width="70" Height="44" VerticalAlignment="Bottom"/>
+
+        <Button Content="Adicionar Curso" HorizontalAlignment="Left" Margin="257,389,0,0" VerticalAlignment="Top"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="167" Margin="35,217,0,0" VerticalAlignment="Top" Width="310"/>
+        <Label Content="Curso" HorizontalAlignment="Left" Margin="47,228,0,0" VerticalAlignment="Top" Width="48"/>
+        <TextBox HorizontalAlignment="Left" Margin="130,236,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Carga Horaria" HorizontalAlignment="Left" Margin="47,259,0,0" VerticalAlignment="Top" Width="83"/>
+        <TextBox HorizontalAlignment="Left" Margin="130,263,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Ementa" HorizontalAlignment="Left" Margin="47,290,0,0" VerticalAlignment="Top" Width="58"/>
+        <TextBox HorizontalAlignment="Left" Margin="130,294,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Funcionario" HorizontalAlignment="Left" Margin="47,321,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox HorizontalAlignment="Left" Margin="130,325,0,0" VerticalAlignment="Top" Width="200"/>
+
+        <Button Content="Adicionar Funcionario" HorizontalAlignment="Left" Margin="621,389,0,0" VerticalAlignment="Top"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="167" Margin="433,217,0,0" VerticalAlignment="Top" Width="307"/>
+        <Label Content="Funcionario" HorizontalAlignment="Left" Margin="445,228,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Margin="520,232,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Cargo" HorizontalAlignment="Left" Margin="445,259,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Margin="520,263,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Setor" HorizontalAlignment="Left" Margin="445,290,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Margin="520,294,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+
+
+
+
+
+
 
 
 
